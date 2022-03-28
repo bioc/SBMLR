@@ -1,3 +1,5 @@
+import(XML)
+import(deSolve)
 export(readSBML,readSBMLR,saveSBML,saveSBMLR,sim,S4toS3)
 S3method(summary, SBMLR)
 S3method(Ops, SBMLR)
